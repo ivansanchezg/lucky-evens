@@ -7,7 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <LuckyEven />
+          <LuckyEven/>
+          <LuckyEven title="Lucky Evens - 100" sides="100"/>
         </header>
       </div>
     );
