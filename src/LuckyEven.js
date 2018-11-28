@@ -21,7 +21,8 @@ class LuckyEven extends Component {
               this.setState({sides: event.target.value});  
             }}
             value = {this.state.sides}
-            size = '3'
+            size = "3"
+            maxLength = "3"
           ></input>
         </div>
         <div>You rolled a {this.state.roll}</div>
